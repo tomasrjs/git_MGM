@@ -1,0 +1,270 @@
+@media only screen and (max-width: 420px) { /*medias para dispositivos mobiles*/
+    .conteinerImg {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .conteinerFooter {
+        display: grid;
+        grid-template-columns: 165px 165px;
+        grid-template-rows: 150px 150px;
+        text-align: left;
+        justify-content: center;
+        padding-top: 35px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .pDes {
+        width: 300px;
+    }
+
+    .videoGuiE1 {
+        padding-top: 140px;
+    }
+
+    .videoGuiE2 {
+        padding-top: 160px;
+    }
+
+    .videoGuiE3 {
+        padding-top: 135px;
+    }
+
+    .videoGuiE4 {
+        padding-top: 280px;
+    }
+
+    .videoGuiA1 {
+        padding-top: 140px;
+    }
+
+    .videoGuiA2 {
+        padding-top: 90px;
+    }
+
+    .videoGuiA3 {
+        padding-top: 140px;
+    }
+
+    .videoGuiA4 {
+        padding-top: 90px;
+    }
+
+    .flexHijoBata1 {
+        padding-bottom: 180px;
+    }
+
+    .flexHijoBata2 {
+        padding-bottom: 300px;
+    }
+
+    .flexHijoBata3 {
+        padding-bottom: 300px;
+    }
+
+    .flexHijoBata4 {
+        padding-bottom: 230px;
+    }
+
+    .aTec {
+        padding-bottom: 350px;
+    }
+
+    .bTec {
+        padding-bottom: 275px;
+    }
+
+    .cTec {
+        margin-bottom: 185px;
+    }
+
+    .dTec {
+        margin-bottom: 65px;
+    }
+}
+
+@media only screen and (max-width: 660px) { /*medidas para medianos*/
+    .conteinerImg {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .conteinerFooter {
+        display: grid;
+        grid-template-columns: 180px 180px;
+        grid-template-rows: 170px 170px;
+        justify-content: space-evenly;
+    }
+
+    .flexPadreGui {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexHijoGui {
+        padding-left: 10px;
+    }
+
+    .videoGuiE1 {
+        margin-top: 205px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .videoGuiE3 {
+        margin-top: 185px;
+        margin-bottom: 3px;
+    }
+
+    .videoGuiE4 {
+        margin-top: 348px;
+    }
+
+    .flexPadreGui2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexHijoGui2 {
+        padding-left: 30px;
+    }
+
+    .videoGuiE2 {
+        margin-top: 205px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 930px){
+    .flexPadreGui {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexHijoGui {
+        padding-left: 10px;
+        
+    }
+
+    .videoGuiE1 {
+        margin-top: 208px;
+        margin-bottom: 5px;
+        display: flex;
+    }
+
+    .videoGuiE3 {
+        margin-top: 185px;
+        margin-bottom: 3px;
+        display: flex;
+    }
+
+    .videoGuiE4 {
+        margin-top: 352px;
+        display: flex;
+    }
+
+    .flexPadreGui2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexHijoGui2 {
+        padding-left: 30px;
+    }
+
+    .videoGuiE2 {
+        margin-top: 208px;
+        margin-bottom: 3px;
+        display: flex;
+    }
+
+    .videoGuiA1 {
+        margin-top: 160px;
+    }
+
+    .videoGuiA2 {
+        margin-top: 115px;
+    }
+
+    .videoGuiA3 {
+        margin-top: 185px;
+    }
+
+    .videoGuiA4 {
+        margin-top: 140px;
+    }
+    .flexHijoBata1 {
+        margin-bottom: 40px;
+    }
+
+    .flexHijoBata4 {
+        margin-bottom: 65px;
+    }
+
+    .cTec {
+        padding-bottom: 210px;
+    }
+
+    .dTec {
+        padding-bottom: 115px;
+    }
+
+    .flexHijoTec {
+        margin-left: 10px;
+    }
+
+    .flexHijoTecB {
+        padding-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1110px){
+    .flexHijoGui {
+        padding-left: 50px;
+    }
+
+    .flexHijoGui2 {
+        padding-left: 50px;
+    }
+
+    .flexHijoGuiA4 {
+        padding-left: 50px;
+    }
+
+    .flexHijoBata1 {
+        padding-left: 50px;
+    }
+
+    .flexHijoBata2 {
+        padding-left: 50px;
+    }
+
+    .flexHijoBata3 {
+        padding-left: 50px;
+    }
+
+    .flexHijoBata4 {
+        padding-left: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 1150px){
+    .flexHijoTec {
+        padding-left: 10px;
+    }
+
+    .flexHijoTecB {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 2000px){
+    .bar-btn {
+        display: none;
+    }
+}

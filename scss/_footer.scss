@@ -1,0 +1,15 @@
+footer {
+    background: linear-gradient(to bottom, $color-rojo, $color-bordo);
+    color: $color-blanco;
+    font-family: sans-serif;
+}
+
+.conteinerFooter {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 100px 100px;
+    text-align: left;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

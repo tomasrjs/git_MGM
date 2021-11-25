@@ -1,0 +1,56 @@
+h1.mgm {
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 50px;
+    letter-spacing: 7px;
+    margin-top: 14px;
+    padding: 10px;
+    padding-left:50px;
+    color: $color-blanco;
+    background-color: $color-negro;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1.titulos {
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 40px;
+    margin-top: 14px;
+    padding: 10px;
+    color: $color-blanco;
+    background-color: $color-negro;
+}
+
+p.negritaTitulo {
+    font-family: Gotham-Ultra;
+    font-weight: 400;
+    font-size: 27px;
+    color: $color-titulo;
+    background: $color-gris;
+    padding: 13px;
+    text-align: left;
+}
+
+span.negritaTexto {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2.negritaTitulo {
+    font-family: Gotham-Ultra;
+    font-weight: 400;
+    font-size: 27px;
+    color: $color-titulo;
+    background: $color-gris;
+    padding: 13px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.pDes {
+    width: 500px;
+    text-align: left;    
+}

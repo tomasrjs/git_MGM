@@ -1,0 +1,47 @@
+.sticky {
+    position: sticky;
+    padding-top: 7px;
+}
+
+.ulUno {
+    background-color: $color-gris;
+    display: flex;
+    justify-content: center;
+    padding-inline-start: 0px;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    background-color: $color-rojo;
+    width: 20%;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+ul ul {
+   position: absolute;
+   display: none;
+   margin: 0px;
+}
+
+ul ul li {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: $color-grisclaro;  
+}
+
+ul ul li a {
+    color: $color-blanco;
+    text-decoration: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li a {
+    color: $color-blanco;
+}
